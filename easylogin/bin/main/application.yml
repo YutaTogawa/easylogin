@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+  jmx:
+    enabled: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/boot1?serverTimezone=Asia/Tokyo
+    username: root
+    password:
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
